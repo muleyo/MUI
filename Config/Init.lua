@@ -1,6 +1,6 @@
-mUI = LibStub("AceAddon-3.0"):NewAddon("mUI", "AceEvent-3.0", "AceConsole-3.0")
+MUI = LibStub('AceAddon-3.0'):NewAddon('MUI', 'AceEvent-3.0', 'AceConsole-3.0')
 
-function mUI:OnInitialize()
+function MUI:OnInitialize()
     -- Database Default profile
     local defaults = {
         profile = {
@@ -13,22 +13,18 @@ function mUI:OnInitialize()
     }
 
     -- Register Database
-    --self.db = LibStub("AceDB-3.0"):New("mUIDB", defaults, true)
+    --self.db = LibStub('AceDB-3.0'):New('MUIDB', defaults, true)
 
     -- Assign DB to a global variable
-    --mUIDB = self.db.profile
+    --MUIDB = self.db.profile
 
-    function self:AddOptionsPanel(Path, Frame, Name)
-      local Panels = self.OptionsPanels
     
-      if not Panels then
-        Panels = {Frames = {}}
-        self.OptionsPanels = Panels
-      end
-    
-      local Frames = Panels.Frames
-    
-      Frames[Path] = Frame
-      Panels[Path] = Name
-    end
+end
+
+function MUI:insertLink(url)
+  local editbox = ChatEdit_ChooseBoxForSend()
+  ChatEdit_DeactivateChat(editbox)
+  ChatEdit_ActivateChat(editbox)
+  editbox:Insert(url)
+  editbox:HighlightText()
 end

@@ -42,7 +42,7 @@ function Unitframes:OnEnable()
                 order = 4,
                 values = {'Default'}
             },
-            space1 = {
+            Space1 = {
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',

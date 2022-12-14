@@ -42,7 +42,7 @@ function General:OnEnable()
                 order = 4,
                 values = {'Default'}
             },
-            space1 = {
+            Space1 = {
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',
@@ -178,7 +178,7 @@ function General:OnEnable()
 
                 end
             },
-            space3 = {
+            Space2 = {
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',

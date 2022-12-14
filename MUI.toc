@@ -1,0 +1,16 @@
+## Interface: 100002
+## Author: muleyo
+## Version: 1.0.5
+## Title: |cff009cffMUI|r
+## Notes: Unleash your real potential
+## SavedVariables: MUIDB
+## X-Curse-Project-ID: 729146
+
+## LIBS
+Libs\Load.xml
+
+## CONFIG
+Config\Load.xml
+
+## TEXTURES
+Textures\Load.xml

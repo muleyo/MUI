@@ -10,7 +10,7 @@
 Libs\Load.xml
 
 ## CONFIG
-Config\Load.xml
+Core\Load.xml
 
 ## Media
 Media\Load.xml

@@ -145,7 +145,7 @@ function Nameplates:OnEnable()
             Height = {
                 name = 'Nameplate Height',
                 type = 'range',
-                width = 1.35,
+                width = 1,
                 order = 13,
                 min = 1,
                 max = 5,
@@ -160,7 +160,7 @@ function Nameplates:OnEnable()
             Width = {
                 name = 'Nameplate Width',
                 type = 'range',
-                width = 1.35,
+                width = 1,
                 order = 14,
                 min = 1,
                 max = 5,

@@ -36,7 +36,7 @@ function Castbars:OnEnable()
                 type = 'select',
                 desc = 'Select a style you like',
                 order = 4,
-                width = 1.35,
+                width = 1,
                 values = {'Blizzard', 'MUI', 'Classic'}
             },
             Space2 = {

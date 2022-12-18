@@ -47,7 +47,7 @@ function BuffsDebuffs:OnEnable()
             BuffSize = {
                 name = 'Buff Size',
                 type = 'range',
-                width = 1.35,
+                width = 1,
                 order = 6,
                 min = 5,
                 max = 35,
@@ -62,7 +62,7 @@ function BuffsDebuffs:OnEnable()
             DebuffSize = {
                 name = 'Debuff Size',
                 type = 'range',
-                width = 1.35,
+                width = 1,
                 order = 7,
                 min = 5,
                 max = 35,

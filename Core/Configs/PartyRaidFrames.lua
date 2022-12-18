@@ -31,14 +31,14 @@ function PartyRaidFrames:OnEnable()
                 type = 'select',
                 desc = 'Change the health/mana textures',
                 order = 3,
-                width = 1.35,
+                width = 1,
                 values = {'Blizzard'}
             },
             CustomSize = {
                 name = 'Custom Size',
                 type = 'select',
                 desc = 'Enable/Disable to adjust the height/width of the Party/Raidframe',
-                width = 1.35,
+                width = 1,
                 order = 4,
                 values = {'Enabled', 'Disabled'}
             },
@@ -51,7 +51,7 @@ function PartyRaidFrames:OnEnable()
             Height = {
                 name = 'Frame Height',
                 type = 'range',
-                width = 1.35,
+                width = 1,
                 order = 6,
                 min = 36,
                 max = 300,
@@ -66,7 +66,7 @@ function PartyRaidFrames:OnEnable()
             Width = {
                 name = 'Frame Width',
                 type = 'range',
-                width = 1.35,
+                width = 1,
                 order = 7,
                 min = 72,
                 max = 300,

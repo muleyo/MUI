@@ -31,14 +31,14 @@ function General:OnEnable()
                 type = 'select',
                 desc = 'Select a theme you like',
                 order = 3,
-                width = 1.35,
+                width = 1,
                 values = {'Blizzard', 'Dark'}
             },
             Font = {
                 name = 'Font',
                 type = 'select',
                 desc = 'Change your game font - NOTE: You should restart your game after changing font',
-                width = 1.35,
+                width = 1,
                 order = 4,
                 values = {'Blizzard'}
             },
@@ -202,7 +202,7 @@ function General:OnEnable()
                 type = 'select',
                 desc = 'Automatically repair with your own gold or from guild bank',
                 order = 20,
-                width = 1.35,
+                width = 1,
                 values = {'Disabled', 'Repair automatically', 'Repair automatically (Guild Bank)'}
             },
         }

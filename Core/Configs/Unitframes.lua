@@ -31,14 +31,14 @@ function Unitframes:OnEnable()
                 type = 'select',
                 desc = 'Select a style you like',
                 order = 3,
-                width = 1.35,
+                width = 1,
                 values = {'Blizzard', 'Classic'}
             },
             Texture = {
                 name = 'Texture',
                 type = 'select',
                 desc = 'Change the health/mana textures',
-                width = 1.35,
+                width = 1,
                 order = 4,
                 values = {'Blizzard'}
             },

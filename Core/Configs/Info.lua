@@ -14,11 +14,11 @@ function Info:OnEnable()
                 order = 1
             },
             Logo = {
-                name = '',
+                name = ' ',
                 type = 'description',
                 image = [[Interface\Addons\MUI\Media\Textures\Images\Logo]],
-                imageWidth = 48,
-                imageHeight = 48,
+                imageWidth = 128,
+                imageHeight = 128,
                 order = 2,
             },
             Info = {

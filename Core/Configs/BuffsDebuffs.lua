@@ -30,7 +30,7 @@ function BuffsDebuffs:OnEnable()
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',
-                order = 3 
+                order = 3
             },
             Unitframes = {
                 name = 'Unitframes',
@@ -42,7 +42,7 @@ function BuffsDebuffs:OnEnable()
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',
-                order = 5 
+                order = 5
             },
             BuffSize = {
                 name = 'Buff Size',
@@ -78,10 +78,10 @@ function BuffsDebuffs:OnEnable()
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',
-                order = 8 
+                order = 8
             },
             Player = {
-                name = 'Player',
+                name = 'Player Buff Frame',
                 type = 'description',
                 fontSize = 'large',
                 order = 9
@@ -90,7 +90,7 @@ function BuffsDebuffs:OnEnable()
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',
-                order = 10 
+                order = 10
             },
             Collapse = {
                 name = 'Collapse Button',

@@ -32,7 +32,7 @@ function PartyRaidFrames:OnEnable()
                 desc = 'Change the health/mana textures',
                 order = 3,
                 width = 1.35,
-                values = {'Default'}
+                values = {'Blizzard'}
             },
             CustomSize = {
                 name = 'Custom Size',
@@ -55,7 +55,7 @@ function PartyRaidFrames:OnEnable()
                 order = 6,
                 min = 36,
                 max = 300,
-                step = 0.1,
+                step = 1,
                 set = function(_, value)
 
                 end,
@@ -70,7 +70,7 @@ function PartyRaidFrames:OnEnable()
                 order = 7,
                 min = 72,
                 max = 300,
-                step = 0.1,
+                step = 1,
                 set = function(_, value)
 
                 end,

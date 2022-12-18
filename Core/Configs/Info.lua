@@ -13,42 +13,50 @@ function Info:OnEnable()
                 name = 'Info',
                 order = 1
             },
+            Logo = {
+                name = '',
+                type = 'description',
+                image = [[Interface\Addons\MUI\Media\Textures\Images\Logo]],
+                imageWidth = 48,
+                imageHeight = 48,
+                order = 2,
+            },
             Info = {
                 name = 'AddOn Info',
                 type = 'description',
                 fontSize = 'large',
-                order = 2
+                order = 3
             },
             Version = {
                 name = 'Version: ' .. GetAddOnMetadata('MUI', 'version'),
                 type = 'description',
                 fontSize = 'medium',
-                order = 3
+                order = 4
             },
             Space1 = {
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',
-                order = 4
+                order = 5
             },
             Community = {
                 name = 'Join the Community',
                 type = 'description',
                 fontSize = 'large',
-                order = 5
+                order = 6
             },
             Space2 = {
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',
-                order = 6
+                order = 7
             },
             Discord = {
                 name = 'Discord',
                 type = 'execute',
                 desc = 'Join our community on Discord',
                 width = 0.85,
-                order = 7,
+                order = 8,
                 func = function()
                     MUI:insertLink('https://discord.gg/bkNyszUb5q')
                 end
@@ -58,7 +66,7 @@ function Info:OnEnable()
                 type = 'execute',
                 desc = 'Follow muleyo on Twitch',
                 width = 0.85,
-                order = 8,
+                order = 9,
                 func = function()
                     MUI:insertLink('https://twitch.tv/muleyo')
                 end
@@ -68,7 +76,7 @@ function Info:OnEnable()
                 type = 'execute',
                 desc = 'Follow muleyo on Twitter',
                 width = 0.85,
-                order = 9,
+                order = 10,
                 func = function()
                     MUI:insertLink('https://twitter.com/realmuleyo')
                 end
@@ -78,7 +86,7 @@ function Info:OnEnable()
                 type = 'execute',
                 desc = 'Check us out on CurseForge',
                 width = 0.85,
-                order = 10,
+                order = 11,
                 func = function()
                     MUI:insertLink('https://curseforge.com')
                 end
@@ -88,7 +96,7 @@ function Info:OnEnable()
                 type = 'execute',
                 desc = 'Check us out on Wago',
                 width = 0.85,
-                order = 11,
+                order = 12,
                 func = function()
                     MUI:insertLink('https://wago.io')
                 end
@@ -98,7 +106,7 @@ function Info:OnEnable()
                 type = 'execute',
                 desc = 'Check us out on GitHub',
                 width = 0.85,
-                order = 12,
+                order = 13,
                 func = function()
                     MUI:insertLink('https://github.com/cleanlock/MUI')
                 end

@@ -32,7 +32,7 @@ function Unitframes:OnEnable()
                 desc = 'Select a style you like',
                 order = 3,
                 width = 1.35,
-                values = {'Default', 'Classic'}
+                values = {'Blizzard', 'Classic'}
             },
             Texture = {
                 name = 'Texture',
@@ -40,7 +40,7 @@ function Unitframes:OnEnable()
                 desc = 'Change the health/mana textures',
                 width = 1.35,
                 order = 4,
-                values = {'Default'}
+                values = {'Blizzard'}
             },
             Space1 = {
                 name = ' ',

@@ -36,8 +36,8 @@ function Nameplates:OnEnable()
                 type = 'select',
                 desc = 'Change the nameplate health texture',
                 order = 4,
-                width = 'full',
-                values = {'Default'}
+                width = 1,
+                values = {'Blizzard'}
             },
             Space2 = {
                 name = ' ',
@@ -48,7 +48,7 @@ function Nameplates:OnEnable()
             HealthText = {
                 name = 'Health Text',
                 type = 'toggle',
-                desc = 'Show health percentage in nameplates',
+                desc = 'Display health percentage in nameplates',
                 order = 6,
                 width = 0.6,
                 set = function(_, status)
@@ -61,7 +61,7 @@ function Nameplates:OnEnable()
             CastTime = {
                 name = 'Cast Time',
                 type = 'toggle',
-                desc = 'Show cast time below cast icon',
+                desc = 'Display cast time below cast icon',
                 order = 7,
                 width = 0.6,
                 set = function(_, status)
@@ -74,7 +74,7 @@ function Nameplates:OnEnable()
             ArenaNumbers = {
                 name = 'Arena 1/2/3',
                 type = 'toggle',
-                desc = 'Show arena number instead of name while in arena',
+                desc = 'Display arena number instead of name while in arena',
                 order = 8,
                 width = 0.6,
                 set = function(_, status)
@@ -87,7 +87,7 @@ function Nameplates:OnEnable()
             TotemIcons = {
                 name = 'Totem Icons',
                 type = 'toggle',
-                desc = 'Show Totem Icons on nameplate',
+                desc = 'Display Totem Icons on nameplate',
                 order = 9,
                 width = 0.6,
                 set = function(_, status)
@@ -100,7 +100,7 @@ function Nameplates:OnEnable()
             HideServer = {
                 name = 'Hide Server',
                 type = 'toggle',
-                desc = 'Hide Servername of players',
+                desc = 'Display Servername of players',
                 order = 9,
                 width = 0.6,
                 set = function(_, status)
@@ -113,7 +113,7 @@ function Nameplates:OnEnable()
             HideDebuffs = {
                 name = 'Hide Debuffs',
                 type = 'toggle',
-                desc = 'Hides your own debuffs on nameplates',
+                desc = 'Display your own debuffs on nameplates',
                 order = 10,
                 width = 0.6,
                 set = function(_, status)
@@ -126,7 +126,7 @@ function Nameplates:OnEnable()
             ClassColorNames = {
                 name = 'Classcolor Name',
                 type = 'toggle',
-                desc = 'Show Playernames in Class Color',
+                desc = 'Display Playernames in Class Color',
                 order = 11,
                 width = 0.8,
                 set = function(_, status)

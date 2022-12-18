@@ -32,15 +32,15 @@ function General:OnEnable()
                 desc = 'Select a theme you like',
                 order = 3,
                 width = 1.35,
-                values = {'Default', 'Dark'}
+                values = {'Blizzard', 'Dark'}
             },
             Font = {
                 name = 'Font',
                 type = 'select',
-                desc = 'Change your game font',
+                desc = 'Change your game font - NOTE: You should restart your game after changing font',
                 width = 1.35,
                 order = 4,
-                values = {'Default'}
+                values = {'Blizzard'}
             },
             Space1 = {
                 name = ' ',
@@ -129,7 +129,7 @@ function General:OnEnable()
             Itemlevel = {
                 name = 'Item Level',
                 type = 'toggle',
-                desc = 'Display Item level on items and show average Item level on inspected players',
+                desc = 'Display Item level on items and display average Item level on inspected players',
                 order = 14,
                 width = 0.6,
                 set = function(_, status)
@@ -152,11 +152,24 @@ function General:OnEnable()
 
                 end
             },
+            XPBar = {
+                name = 'Hide XP Bar',
+                type = 'toggle',
+                desc = 'Hide the XP Bar - NOTE: This will also hide your Reputation and Honor Bar',
+                order = 16,
+                width = 0.6,
+                set = function(_, status)
+
+                end,
+                get = function()
+
+                end
+            },
             Talkinghead = {
                 name = 'Talkinghead',
                 type = 'toggle',
                 desc = 'Automatically skip cinematics',
-                order = 16,
+                order = 17,
                 width = 0.6,
                 set = function(_, status)
 
@@ -169,7 +182,7 @@ function General:OnEnable()
                 name = 'Errors',
                 type = 'toggle',
                 desc = 'Disable error messages (Out of range etc.)',
-                order = 17,
+                order = 18,
                 width = 0.6,
                 set = function(_, status)
 
@@ -182,13 +195,13 @@ function General:OnEnable()
                 name = ' ',
                 type = 'description',
                 fontSize = 'large',
-                order = 18
+                order = 19
             },
             Repair = {
                 name = 'Repair',
                 type = 'select',
                 desc = 'Automatically repair with your own gold or from guild bank',
-                order = 19,
+                order = 20,
                 width = 1.35,
                 values = {'Disabled', 'Repair automatically', 'Repair automatically (Guild Bank)'}
             },

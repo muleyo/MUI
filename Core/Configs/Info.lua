@@ -17,9 +17,9 @@ function Info:OnEnable()
                 name = ' ',
                 type = 'description',
                 image = [[Interface\Addons\MUI\Media\Textures\Images\Logo]],
-                imageWidth = 128,
-                imageHeight = 128,
-                order = 2,
+                imageWidth = 240,
+                imageHeight = 240,
+                order = 14,
             },
             Info = {
                 name = 'AddOn Info',
@@ -88,7 +88,7 @@ function Info:OnEnable()
                 width = 0.85,
                 order = 11,
                 func = function()
-                    MUI:insertLink('https://curseforge.com')
+                    MUI:insertLink('https://www.curseforge.com/wow/addons/mui-unleash-your-real-potential')
                 end
             },
             Wago = {
@@ -98,7 +98,7 @@ function Info:OnEnable()
                 width = 0.85,
                 order = 12,
                 func = function()
-                    MUI:insertLink('https://wago.io')
+                    MUI:insertLink('https://addons.wago.io/addons/mui')
                 end
             },
             Github = {

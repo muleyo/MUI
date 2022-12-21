@@ -35,7 +35,10 @@ function General:OnEnable()
                 desc = 'Select a theme you like',
                 order = 3,
                 width = 1,
-                values = {'Blizzard', 'Dark'},
+                values = {
+                    'Blizzard',
+                    'Dark'
+                },
                 set = function(_, value)
                     MUIDB.General.Theme = value
                 end,
@@ -49,7 +52,9 @@ function General:OnEnable()
                 desc = 'Change your game font - NOTE: You should restart your game after changing font',
                 width = 1,
                 order = 4,
-                values = {'Blizzard'},
+                values = {
+                    'Blizzard'
+                },
                 set = function(_, value)
                     MUIDB.General.Font = value
                 end,

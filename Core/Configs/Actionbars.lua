@@ -123,7 +123,11 @@ function Actionbars:OnEnable()
                 desc = 'Bag Buttions display behavior',
                 order = 11,
                 width = 0.88,
-                values = {'Show always', 'Show on Mouseover', 'Hide'}
+                values = {
+                    'Show always',
+                    'Show on Mouseover',
+                    'Hide'
+                }
             },
             Micromenu = {
                 name = 'Micromenu',
@@ -131,7 +135,11 @@ function Actionbars:OnEnable()
                 desc = 'Micromenu display behavior',
                 order = 12,
                 width = 0.88,
-                values = {'Show always', 'Show on Mouseover', 'Hide'}
+                values = {
+                    'Show always',
+                    'Show on Mouseover',
+                    'Hide'
+                }
             },
             Space4 = {
                 name = ' ',

@@ -48,4 +48,17 @@ function Config:OnEnable()
 
     -- Register Slash Command
     MUI:RegisterChatCommand('MUI', SlashCommand)
+
+    -- Add Option to Game Menu
+    GameMenuFrame.Header:Hide()
+    local MUIButton = CreateFrame("Button", "MUIButton", GameMenuFrame, "UIPanelButtonTemplate")
+    MUIButton:SetSize(145, 20)
+    MUIButton:SetText("|cff009cffMUI|r")
+    MUIButton:ClearAllPoints()
+    MUIButton:SetPoint("TOP", 0, -11)
+    MUIButton:RegisterForClicks("AnyUp")
+    MUIButton:SetScript("OnClick", function()
+        LibStub('AceConfigDialog-3.0'):Open('muleyoUI')
+        ToggleGameMenu()
+    end)
 end

@@ -194,7 +194,11 @@ function General:OnEnable()
                 desc = 'Automatically repair with your own gold or from guild bank',
                 order = 17,
                 width = 1,
-                values = {'Disabled', 'Repair automatically', 'Repair automatically (Guild Bank)'},
+                values = {
+                    'Disabled',
+                    'Auto-Repair',
+                    'Auto-Repair (Guild Bank)'
+                },
                 set = function(_, value)
                     if value == false then
                         MUI_Repair:OnDisable()
